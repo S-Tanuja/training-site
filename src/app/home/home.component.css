@@ -1,0 +1,271 @@
+.logo{
+    margin: 10px 30px;
+    margin-left: 5rem;
+    height: 44px;
+    width: 210px;
+}
+.tabbar{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 1240px;
+    opacity: 0.98;
+    box-shadow: 0 1px 12px 0 rgba(0,0,0,0.14);
+    margin-bottom: 10px;
+}
+#userProfile{
+    border-radius: 50%;
+    width: 20%;
+    height: 50%;
+    border-color: red 10px solid;
+}
+.username{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.subform1 p{
+    width:600px;
+}
+
+
+.user{
+    display: flex;
+    margin: 10px;
+    margin-left: 600px;
+}
+.newqbtn{
+    color: white;
+    background-color: #d92756;
+    padding: 8px;
+    border-radius: 30px;border: none;
+}
+.qbtn{
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin: none;
+}
+button:hover{
+    background-color: rgb(245, 199, 207);
+}
+/* span{
+    background-color: rgb(210, 195, 204);
+    padding: 8px;
+    border-radius: 5px;
+} */
+.main{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-gap: 0.5rem;
+    width: 80%;
+    justify-content: center;
+   margin-left: 8%;
+    
+    
+}
+.Questionnaires{
+    margin-left: 30px;
+    padding-right: 8px;
+    line-height: 3rem;
+    border-radius: 10px;
+    background-color: white;
+    flex-basis: 25%;
+    padding-left: 10px;
+    height: 300px;
+    width: 190px;
+    justify-content: center;
+    box-shadow: 0 4px 40px 0 rgba(217,39,86,0.08);
+
+}
+
+.Questionnaires ul{
+    padding-left: 10px;
+}
+.form1{
+   /* margin-left: 30px; */
+   /* margin-right: 60px; */
+    background-color:white;
+    padding: 10px;
+    /* border-radius: 10px; */
+    height: 600px;
+    width: 310px;
+    flex-basis: 30%;
+}  
+.input{
+    margin-top: 8px;
+     width: 600px;
+  
+}
+.date_sideways {
+    display: flex;
+    /* margin-left: 8px; */
+    /* gap: 0.5rem; */
+    max-width:600px;
+
+}
+
+.date_sideways mat-form-field{
+    width:193px;
+}
+
+.date_sideways #second{
+    margin-left: 10px;
+}
+
+.ppt_sideways{
+    display: flex;
+}
+ .ppt_sideways mat-form-field{
+    min-width:294px;
+}
+
+
+.icon{
+    list-style: none;
+    color:#d92756;
+    padding: 5px 10px;
+    background-color: #fdf4f6;
+    margin-top: 5px;
+
+}
+.form{
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 15px;
+    height: auto;
+    width: 80%;
+}
+
+ .idesc{ 
+    font-size: 15px;
+    color: red; 
+    background-color:  #fdf4f6; 
+    margin-bottom: 30px;
+    padding-left: 12px;
+ } 
+.info{
+    border-left: red 1px solid;
+    height: 150px;
+    margin: none;
+    margin: 10px;
+    flex-basis: 30%;
+}
+
+.info ul{
+    padding-left: 20px;
+}
+.btndesc{
+    /* width:700px; */
+    padding-left: 10px;
+}
+.ibtn{
+    /* padding-left: 10px;
+    padding-bottom: 10px; */
+    padding:8px 10px;
+    background-color: #fdf4f6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: red;
+    width: 150px;
+    height: 30px;
+}
+li{
+    list-style: none;
+}
+.flexbtn{
+    display:flex;
+}
+
+.flexbtn mat-form-field{
+    min-width:294px;
+}
+
+.flexbtn mat-form-field:first-child{
+    margin-left: -10px;
+}
+.submain{
+    /* display: grid;
+    grid-template-columns: 2fr 0.5fr; */
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 40px 0 rgba(217,39,86,0.08);
+}
+.foot{
+    size: small;
+    color: grey;
+    text-align: center;
+}
+.sidenavbar{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    position: relative;
+    
+}
+.plusIcon{
+    margin-left: 150px;
+    margin-right: 10px;
+    margin-top: 400px;
+    /* border-radius: 250px;
+    background-color: #d92756;
+    color: white;
+    padding: 6px;
+    padding-bottom: 2px;
+    align-items: center;
+    text-align: center; */
+}
+.plus{
+    transform: rotate(45deg);
+    border-radius: 250px;
+    background-color: #d92756;
+    color: white;
+    padding: 6px;
+    padding-bottom: 2px;
+    align-items: center;
+    text-align: center;
+}
+.plus:hover{
+    background-color: #d92756;
+    cursor: pointer;
+}
+.cross{
+    transform: rotate(90deg);
+    border-radius: 250px;
+    background-color: #d92756;
+    color: white;
+    padding: 6px;
+    padding-bottom: 2px;
+    align-items: center;
+    text-align: center;
+    
+}
+.cross:hover{
+    background-color: #d92756;
+    cursor: pointer;
+}
+.options{
+    background-color: #FDF4F6;
+    border-radius: 20px;
+    color:#d92756;
+    width: 180px;
+    margin-top: 10px;
+     padding: 5px;
+
+}
+.optionsContainer{
+    position: absolute;
+    left: 7%;
+    bottom: 120px;
+ 
+
+}
+
+.blur{
+    background-color: #cb1e43;
+}

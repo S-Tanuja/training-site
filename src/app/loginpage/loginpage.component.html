@@ -1,0 +1,35 @@
+<app-repeat-bg></app-repeat-bg>
+<div class="bg">
+   
+   <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="card">
+        <p>Login</p>
+        <mat-form-field appearance="outline">
+            <mat-label>Enter Username</mat-label>
+            <input matInput formControlName="userName">
+                <mat-error *ngIf="loginForm.get('userName')?.errors?.['required'] && (loginForm.get('userName')?.touched)">
+                    Please enter user name!
+                </mat-error>
+                <mat-error *ngIf="loginForm.get('userName')?.errors?.['pattern'] && (loginForm.get('userName')?.touched)">
+                    Username is invalid!
+                </mat-error>
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Enter password</mat-label>
+            <input matInput formControlName="password">
+            <mat-error *ngIf="loginForm.get('password')?.errors?.['required'] && (loginForm.get('password')?.touched)">
+                Please enter password!
+            </mat-error>
+           
+        </mat-form-field><br>
+    
+       <div >
+        <input type="submit" class="btn" value="Login">
+       </div>
+       <p class="fp" routerLink="/alertbox">Forgot password?</p>
+    
+       </div>
+   
+   </form>
+</div>

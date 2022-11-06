@@ -1,0 +1,26 @@
+.bg{
+    height: 1138px;
+    width: 1440px;
+    background: linear-gradient(52.03deg, #7A7FC8 0%, #BD385B 100%);
+}
+.container{
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-40%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+}
+.btn{
+    border-radius: 30px;
+    padding: 20px;
+    padding-top: 10px;
+    width: 130px;
+    height: 40px;
+    /* padding-top: 5px; */
+    background-color:  #d92756  ;
+    color: white;
+    margin-top: 10px;
+}

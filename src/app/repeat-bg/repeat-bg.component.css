@@ -1,0 +1,11 @@
+.tabbar{
+    background-color:white;
+    display: flex;
+    align-content: space-between;
+    box-shadow: 0 1px 12px 0 rgba(0,0,0,0.1)
+}
+
+.logo{
+    margin-left: 3rem;
+    margin-top: 1rem; 
+}

@@ -1,0 +1,28 @@
+.logo{
+    width:40%;
+    height:40%;
+    margin: 10px 30px;
+}
+.tabbar{
+    background-color:white;
+    display: flex;
+    align-content: space-between;
+}
+.userProfile{
+    border-radius: 50%;
+    width: 8%;
+    height: 30%;
+    margin-right: 0px;
+    border-color: red 10px solid;
+    position: relative;
+    margin:right;
+}
+.userName{
+    
+    font-size: 10px;
+}
+.box{
+    height: 40%;
+    width: 50%;
+    border: 1px solid black;
+}

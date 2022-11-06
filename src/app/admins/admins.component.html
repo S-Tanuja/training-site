@@ -1,0 +1,69 @@
+<div class="container">
+
+    <p>Add/Remove Admins</p>
+   
+    <div class="form">
+       
+        <!-- <div class="info"> -->
+            <form [formGroup]="addForm" >
+
+            <mat-form-field appearance="outline">
+                <mat-label>Enter name</mat-label>
+                <input matInput formControlName="name">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Enter employee code</mat-label>
+                <input matInput formControlName="empId" >
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Enter Mail Id</mat-label>
+                <input matInput formControlName="mailId">
+            </mat-form-field>
+        </form>
+
+        
+            <div matfab (click)="addAdmin()">
+             <mat-icon class="icons"aria-hidden="false" aria-label=" notes icon" fontIcon="add"></mat-icon >
+            </div>
+
+        <!-- </div> -->
+       
+  
+    </div>
+
+    <div class="cross">
+        <mat-icon [mat-dialog-close]="true" routerLink="/home">close</mat-icon>
+    </div>
+</div>
+
+
+
+<div *ngFor="let detail of details ">
+    <mat-form-field appearance="outline">
+        <mat-label>Enter name</mat-label>
+        <input matInput  value="{{detail.name}}">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Enter employee id</mat-label>
+        <input matInput value="{{detail.empId}}">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Enter Mail Id</mat-label>
+        <input matInput  value="{{detail.mailId}}">
+    </mat-form-field>
+
+    <span matfab (click)="deleteAdmin(details)">
+        <mat-icon class="icons">delete</mat-icon >
+        </span>
+        <span matfab >
+            <mat-icon class="icons">edit</mat-icon >
+            </span>
+    
+
+</div>
+   
+
+
+

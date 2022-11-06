@@ -1,0 +1,48 @@
+.form{
+    display: flex;
+    margin-bottom: 2rem;
+    border-bottom: dotted rgb(217, 208, 208) ;
+}
+
+ mat-form-field{
+    margin-left: 20px;
+    min-width: 50px;
+    min-height: 80px;
+}
+
+.cross{
+    position: absolute;
+    left: 98%;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+} 
+p{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.icons{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color:#d92756  ;
+    border-radius: 1rem;
+    color:white;
+    padding: 5px;
+   padding-bottom: 2px;
+   height: 30px;
+   cursor: pointer;
+   width:2rem;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1px;
+   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+
+}

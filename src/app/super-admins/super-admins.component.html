@@ -1,0 +1,31 @@
+<div class="container">
+
+    <p>Add/Remove {{group}}</p>
+   
+    <div class="form">
+       
+        <div class="info">
+            <mat-form-field appearance="outline">
+                <mat-label>Enter name</mat-label>
+                <input matInput>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Enter employee code</mat-label>
+                <input matInput>
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Enter Mail Id</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </div>
+        <div class="icons">
+            <mat-icon>add</mat-icon>
+        </div>
+    </div>
+
+    <div class="cross">
+        <mat-icon [mat-dialog-close]="true" routerLink="/home">close</mat-icon>
+    </div>
+</div>

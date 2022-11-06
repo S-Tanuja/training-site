@@ -1,0 +1,28 @@
+{
+  "login": [
+    {
+      "userName": "Tanuja",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "userName": "Tanu",
+      "password": "12322",
+      "id": 2
+    }
+  ],
+  "admin": [
+    {
+      "name": "g",
+      "empId": "th",
+      "mailId": "gh",
+      "id": 1
+    },
+    {
+      "name": "pu",
+      "empId": "ph",
+      "mailId": "ul",
+      "id": 2
+    }
+  ]
+}

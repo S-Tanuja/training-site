@@ -1,0 +1,28 @@
+<app-repeat-bg></app-repeat-bg>
+<div class="bg">
+    <div class="card">
+        <div class="content">
+            <p>Change Password</p>
+            <form [formGroup]="updateForm">
+                <mat-form-field appearance="outline">
+                    <mat-label>Enter Password</mat-label>
+                    <input matInput formControlName="pwd">
+                </mat-form-field>
+    
+                <mat-form-field appearance="outline">
+                    <mat-label>Re-Enter new password</mat-label>
+                    <input matInput formControlName="newpwd">
+                </mat-form-field><br>
+    
+                <div>
+                    <button (click)="checkPwd()"type="submit" class="btn">Update</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="icon">
+            <mat-icon>close</mat-icon>
+        </div>
+
+    </div>
+</div>
